@@ -29,6 +29,7 @@ public class Main {
         }
         System.out.println(cena);
         // Má vypsat "1.0". Ale vypíše "0.9999" !!!
+        // Postup je správně, chyba je pouze v použití datového typu double, který může být nepřesný.
     }
 
     public static void ukol6() {
